@@ -7,6 +7,10 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote name="katsuna"
+          fetch="ssh://git@github.com/katsuna/"
+          revision="o" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
