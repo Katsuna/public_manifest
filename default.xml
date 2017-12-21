@@ -592,4 +592,27 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Extra Katsuna repos -->
+  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="n-dev" />
+  <project path="vendor/keys" name="vendor_keys" remote="katsuna" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="katsuna" />
+  <project path="vendor/lge" name="vendor_lge" remote="katsuna" />
+
+  <!-- Katsuna apps -->
+  <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaCalls" name="packages_apps_KatsunaCalls" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaContacts" name="packages_apps_KatsunaContacts" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaInfoServices" name="packages_apps_KatsunaInfoServices" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaKeyboard" name="packages_apps_KatsunaKeyboard" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaLauncher" name="packages_apps_KatsunaLauncher" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaMessages" name="packages_apps_KatsunaMessages" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaServices" name="packages_apps_KatsunaServices" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaSetupWizard" name="packages_apps_KatsunaSetupWizard" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaUpdater" name="packages_apps_KatsunaUpdater" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaVisual" name="packages_apps_KatsunaVisual" remote="katsuna" revision="n-dev" />
+  <project path="packages/apps/KatsunaWidgets" name="packages_apps_KatsunaWidgets" remote="katsuna" revision="n-dev" />
+  <project path="prebuilts/KatsunaDependencies" name="prebuilts_KatsunaDependencies" remote="katsuna" revision="n-dev" />
+
+  <!-- Prebuilt Katsuna Apps -->
+  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="n-dev" />
 </manifest>
