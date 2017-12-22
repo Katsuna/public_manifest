@@ -593,7 +593,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Extra Katsuna repos -->
-  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="n-dev" />
+  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="o-dev" />
   <project path="vendor/keys" name="vendor_keys" remote="katsuna" />
   <project path="vendor/huawei" name="vendor_huawei" remote="katsuna" />
   <project path="vendor/lge" name="vendor_lge" remote="katsuna" />
