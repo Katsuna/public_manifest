@@ -86,7 +86,7 @@
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" clone-depth="1" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" clone-depth="1" />
   <project path="external/bart" name="platform/external/bart" groups="pdk" clone-depth="1" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" />
+  <project path="external/bison" name="external_bison" groups="pdk" remote="katsuna" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" clone-depth="1" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" clone-depth="1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" clone-depth="1" />
@@ -526,7 +526,7 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="katsuna" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
