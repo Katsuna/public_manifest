@@ -34,7 +34,6 @@
   <project path="developers/build" name="platform/developers/build" groups="developers" clone-depth="1" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" clone-depth="1"/>
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" clone-depth="1" />
-  <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="katsuna" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -56,7 +55,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="katsuna" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie" />
   <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
@@ -65,7 +63,6 @@
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
-  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="katsuna" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" clone-depth="1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -86,7 +83,6 @@
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" clone-depth="1" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" clone-depth="1" />
   <project path="external/bart" name="platform/external/bart" groups="pdk" clone-depth="1" />
-  <project path="external/bison" name="external_bison" groups="pdk" remote="katsuna" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" clone-depth="1" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" clone-depth="1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" clone-depth="1" />
@@ -344,7 +340,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" clone-depth="1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" clone-depth="1" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" clone-depth="1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" clone-depth="1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" clone-depth="1" />
@@ -434,7 +429,6 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
@@ -454,7 +448,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" clone-depth="1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" clone-depth="1" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" clone-depth="1" />
@@ -526,7 +519,6 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="katsuna" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -591,27 +583,5 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Extra Katsuna repos -->
-  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="o-dev" />
-  <project path="vendor/keys" name="vendor_keys" remote="katsuna" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="katsuna" />
-  <project path="vendor/lge" name="vendor_lge" remote="katsuna" />
-
-  <!-- Katsuna apps -->
-  <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaCalls" name="packages_apps_KatsunaCalls" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaContacts" name="packages_apps_KatsunaContacts" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaInfoServices" name="packages_apps_KatsunaInfoServices" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaKeyboard" name="packages_apps_KatsunaKeyboard" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaLauncher" name="packages_apps_KatsunaLauncher" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaMessages" name="packages_apps_KatsunaMessages" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaServices" name="packages_apps_KatsunaServices" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaSetupWizard" name="packages_apps_KatsunaSetupWizard" remote="katsuna" revision="n-dev" />
-  <project path="packages/apps/KatsunaUpdater" name="packages_apps_KatsunaUpdater" remote="katsuna" revision="n-dev" />
-  <project path="packages/apps/KatsunaVisual" name="packages_apps_KatsunaVisual" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaWidgets" name="packages_apps_KatsunaWidgets" remote="katsuna" revision="dev" />
-  <project path="prebuilts/KatsunaDependencies" name="prebuilts_KatsunaDependencies" remote="katsuna" revision="dev" />
-
-  <!-- Prebuilt Katsuna Apps -->
-  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="n-dev" />
+  <include name="katsuna/katsuna.xml" />
 </manifest>
