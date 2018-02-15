@@ -10,6 +10,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="katsuna" />
+  <project path="system/core" name="system_core" groups="pdk" remote="katsuna" revision="o-dev"/>
 
   <!-- Extra Katsuna repos -->
   <project path="platform_manifest" name="manifest" remote="katsuna" revision="o-dev" />
