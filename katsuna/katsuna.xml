@@ -37,4 +37,8 @@
   <!-- Prebuilt Katsuna Apps -->
   <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="n-dev" />
 
+  <!-- Prebuilt Vendor Apps -->
+  <!-- Opera -->
+  <project path="vendor/opera" name="vendor_opera" remote="katsuna" revision="o" />
+
 </manifest>
