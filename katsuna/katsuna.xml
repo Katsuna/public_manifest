@@ -35,7 +35,7 @@
   <project path="prebuilts/KatsunaDependencies" name="prebuilts_KatsunaDependencies" remote="katsuna" revision="dev" />
 
   <!-- Prebuilt Katsuna Apps -->
-  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="n-dev" />
+  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="o-dev" />
 
   <!-- Prebuilt Vendor Apps -->
   <!-- Opera -->
