@@ -13,6 +13,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="katsuna" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="katsuna" />
   <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="katsuna" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="katsuna" />
   <project path="external/bison" name="external_bison" groups="pdk" remote="katsuna" />
