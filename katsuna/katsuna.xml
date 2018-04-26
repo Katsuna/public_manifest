@@ -34,6 +34,7 @@
   <!-- Katsuna apps -->
   <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaCalls" name="packages_apps_KatsunaCalls" remote="katsuna" revision="dev" />
+  <project path="packages/apps/KatsunaClock" name="packages_apps_KatsunaClock" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaContacts" name="packages_apps_KatsunaContacts" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaInfoServices" name="packages_apps_KatsunaInfoServices" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaKeyboard" name="packages_apps_KatsunaKeyboard" remote="katsuna" revision="dev" />
