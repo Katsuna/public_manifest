@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r27"
+  <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
            sync-j="4" />
   <remote name="katsuna"
@@ -208,7 +208,6 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" clone-depth="1" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" clone-depth="1" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" clone-depth="1" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" clone-depth="1" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" clone-depth="1" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" clone-depth="1" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" clone-depth="1" />
