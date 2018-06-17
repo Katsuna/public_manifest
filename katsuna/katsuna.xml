@@ -33,6 +33,7 @@
 
   <!-- Katsuna apps -->
   <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
+  <project path="packages/apps/KatsunaCalendar" name="packages_apps_KatsunaCalendar" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaCalls" name="packages_apps_KatsunaCalls" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaClock" name="packages_apps_KatsunaClock" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaContacts" name="packages_apps_KatsunaContacts" remote="katsuna" revision="dev" />
