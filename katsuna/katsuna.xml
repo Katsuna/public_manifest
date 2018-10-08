@@ -30,6 +30,7 @@
   <project path="vendor/keys" name="vendor_keys" remote="katsuna" />
   <project path="vendor/huawei" name="vendor_huawei" remote="katsuna" />
   <project path="vendor/lge" name="vendor_lge" remote="katsuna" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="katsuna" />
 
   <!-- Katsuna apps -->
   <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
