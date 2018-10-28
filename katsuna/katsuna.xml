@@ -40,7 +40,7 @@
   <project path="packages/apps/KatsunaContacts" name="packages_apps_KatsunaContacts" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaInfoServices" name="packages_apps_KatsunaInfoServices" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaKeyboard" name="packages_apps_KatsunaKeyboard" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaLauncher" name="packages_apps_KatsunaLauncher" remote="katsuna" revision="dev" />
+  <project path="packages/apps/KatsunaLauncher" name="packages_apps_KatsunaLauncher" remote="katsuna" revision="p-dev" />
   <project path="packages/apps/KatsunaMessages" name="packages_apps_KatsunaMessages" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaPartner" name="packages_apps_KatsunaPartner" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaSetupWizard" name="packages_apps_KatsunaSetupWizard" remote="katsuna" revision="o-dev" />
