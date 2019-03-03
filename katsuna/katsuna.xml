@@ -12,13 +12,19 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="katsuna" >
+   <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="katsuna" />
   <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="katsuna" />
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="katsuna" />
+  <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote ="katsuna" />
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="katsuna" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="katsuna" />
   <project path="external/bison" name="external_bison" groups="pdk" remote="katsuna" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="katsuna" revision="o-dev" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="katsuna" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="katsuna" revision="o-dev" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="katsuna" revision="o" />
@@ -32,6 +38,10 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="katsuna" />
   <project path="vendor/lge" name="vendor_lge" remote="katsuna" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="katsuna" />
+
+  <!-- Kernel repos -->
+  <!-- taimen/wahoo kernel (currently DU's kernel) -->
+  <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="katsuna" revision="o8x" />
 
   <!-- Katsuna apps -->
   <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
