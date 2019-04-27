@@ -32,6 +32,7 @@
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="katsuna" />
   <project path="system/core" name="system_core" groups="pdk" remote="katsuna" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="katsuna" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="katsuna" />
 
   <!-- Extra Katsuna repos -->
   <project path="platform_manifest" name="manifest" remote="katsuna" revision="o-dev" />
