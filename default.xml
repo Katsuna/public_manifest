@@ -7,7 +7,7 @@
            remote="aosp"
            sync-j="4" />
   <remote name="katsuna"
-          fetch="ssh://git@github.com/katsuna/"
+          fetch="ssh://git@github.com/Katsuna/"
           revision="o" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" clone-depth="1" />
