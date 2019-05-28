@@ -43,8 +43,8 @@
   <project path="vendor/google_devices" name="vendor_google_devices" remote="katsuna" />
 
   <!-- Kernel repos -->
-  <!-- taimen/wahoo kernel (currently DU's kernel) -->
-  <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="katsuna" revision="o-stock" />
+  <!-- taimen/wahoo kernel -->
+  <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="katsuna" />
 
   <!-- Katsuna apps -->
   <project path="frameworks/KatsunaCommon" name="frameworks_KatsunaCommon" remote="katsuna" revision="dev" />
