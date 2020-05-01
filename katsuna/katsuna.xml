@@ -3,7 +3,7 @@
 
   <!-- Aosp Forks -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="katsuna" />
-  <project path="build/make" name="build" groups="pdk" remote="katsuna" revision="o-dev" >
+  <project path="build/make" name="build" groups="pdk" remote="katsuna" revision="o-public" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,19 +23,19 @@
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="katsuna" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="katsuna" />
   <project path="external/bison" name="external_bison" groups="pdk" remote="katsuna" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="katsuna" revision="o-dev" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="katsuna" revision="o-public" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="katsuna" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="katsuna" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="katsuna" revision="o-dev" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="katsuna" revision="o-dev" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="katsuna" revision="o-public" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="katsuna" revision="o-public" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="katsuna" />
   <project path="system/core" name="system_core" groups="pdk" remote="katsuna" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="katsuna" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="katsuna" />
 
   <!-- Extra Katsuna repos -->
-  <project path="platform_manifest" name="manifest" remote="katsuna" revision="o-dev" />
-  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="o-dev" />
+  <project path="platform_manifest" name="manifest" remote="katsuna" revision="o-public" />
+  <project path="vendor/katsuna" name="vendor_katsuna" remote="katsuna" revision="o-public" />
 
   <!-- Kernel repos -->
   <!-- taimen/wahoo kernel -->
@@ -54,13 +54,13 @@
   <project path="packages/apps/KatsunaLauncher" name="packages_apps_KatsunaLauncher" remote="katsuna" revision="p-dev" />
   <project path="packages/apps/KatsunaMessages" name="packages_apps_KatsunaMessages" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaPartner" name="packages_apps_KatsunaPartner" remote="katsuna" revision="dev" />
-  <project path="packages/apps/KatsunaSetupWizard" name="packages_apps_KatsunaSetupWizard" remote="katsuna" revision="o-dev" />
-  <project path="packages/apps/KatsunaUpdater" name="packages_apps_KatsunaUpdater" remote="katsuna" revision="o-dev" />
+  <project path="packages/apps/KatsunaSetupWizard" name="packages_apps_KatsunaSetupWizard" remote="katsuna" revision="o-public" />
+  <project path="packages/apps/KatsunaUpdater" name="packages_apps_KatsunaUpdater" remote="katsuna" revision="o-public" />
   <project path="packages/apps/KatsunaVisual" name="packages_apps_KatsunaVisual" remote="katsuna" revision="dev" />
   <project path="packages/apps/KatsunaWidgets" name="packages_apps_KatsunaWidgets" remote="katsuna" revision="dev" />
   <project path="prebuilts/KatsunaDependencies" name="prebuilts_KatsunaDependencies" remote="katsuna" revision="dev" />
 
   <!-- Prebuilt Katsuna Apps -->
-  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="o-dev" />
+  <project path="vendor/kapps" name="vendor_kapps" remote="katsuna" revision="o-public" />
 
 </manifest>
